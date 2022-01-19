@@ -17,4 +17,9 @@ public class Cabrio extends Car {
     public void setHasHardTop(boolean hasHardTop) {
         this.hasHardTop = hasHardTop;
     }
+
+    @Override
+    void printName() {
+        super.printName();
+    }
 }
