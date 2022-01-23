@@ -39,6 +39,17 @@ public class Car extends Transport{
     void info() {
         System.out.println(this);
     }
+
+
+    @Override
+    public void printInventionDate() {
+
+    }
+
+    @Override
+    public void wroomWroom() {
+
+    }
 }
 
 
